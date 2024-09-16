@@ -1,0 +1,141 @@
+/*Reglas de formato generales*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+}
+
+/*Formato del titulo, Header*/
+header {
+  background: #000000 0% 0%;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.titulo {
+  margin-top: 2px;
+  font-size: 3em;
+}
+
+/*Caja del banner*/
+.banner {
+  background-color: black;
+  background-size: cover;
+  margin-top: 5px;
+  margin-left: 0%;
+  margin-right: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+/*Primera sección de la página*/
+.box1 {
+  /*contenedor Padre*/
+  margin: 0%;
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.info {
+  /*Cajita Infomración*/
+  justify-content: center;
+  margin: 3%;
+  padding: 5%;
+  width: 50%;
+}
+.iguanaimg {
+  /*Cambios directos en la imagen*/
+  width: 50%;
+}
+.imgigu1 {
+  /*Cajita Imagen*/
+  width: 100%;
+  height: 100%;
+  padding: 10%;
+}
+
+/*Segunda Sección de la página, Iconos*/
+
+.box2 {
+  /*Contenedor de la sección*/
+  background-color: #1e1a13;
+  padding: 20px;
+  text-align: center;
+  height: 300px;
+  margin: 0;
+}
+.box2 h1 {
+  /*Cambios directos al h1 de esta sección*/
+  color: white;
+  font-size: 2.5em;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.iconos {
+  /*Caja Iconos Padre*/
+  display: flex;
+  gap: 15%;
+  justify-content: center;
+}
+.divicons {
+  /*Cajita de los iconos*/
+  color: white;
+  white-space: nowrap;
+  align-items: center;
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+}
+.divicons p {
+  /*Tratando de ajustar el texto*/
+  padding-top: 5px;
+  font-size: 25px;
+}
+
+/*Sección 3 Galería de imagenes*/
+.galeria {
+  /*Caja Padre*/
+  display: flex;
+  justify-content: center;
+  gap: 9px;
+  background-color: black;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.divgaleria {
+  /*Cajitas de fotos*/
+  width: 25%;
+}
+
+.divgaleria img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*Pie de página*/
+footer {
+  background-color: #1e1a13;
+  font-size: 1.2em;
+  text-align: center;
+  color: white;
+  padding: 45px;
+}
+footer p {
+  margin: 0;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: gray;
+}
